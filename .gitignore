@@ -1,1 +1,31 @@
+# Hardware
+hardware/*
+!hardware/bd/
+!hardware/const
+!hardware/export
+!hardware/tmp3_uart_proj.tcl
+!hardware/build
+hardware/build/*
+!hardware/build/.keep
 
+# Software
+software/*
+
+# Vitis
+!software/vitis
+software/vitis/*
+!software/vitis/TMP3_app
+software/vitis/TMP3_app/*
+!software/vitis/TMP3_app/src
+
+# Pico
+!software/pico
+software/pico/*
+!software/pico/CMakeLists.txt
+!software/pico/src
+!software/pico/build/
+software/pico/build/*
+!software/pico/build/.keep
+
+# Misc
+.vscode
